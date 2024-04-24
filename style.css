@@ -62,11 +62,13 @@ button {
     align-items: center;
 }
 
+/* hot deal section */
 #hot-deal-section {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    background-color: rgb(8, 97, 134);
 }
 
 #The-Latest-Deals {
