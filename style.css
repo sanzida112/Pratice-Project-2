@@ -1,0 +1,98 @@
+/* Header SEction */
+header {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    padding: 50px 70px 0px;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(236, 42, 145);
+    padding: 10px;
+    color: aliceblue;
+}
+
+
+/* 3 Flower SEction */
+#Three-flower-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.three-flower-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 30px;
+    border: none;
+    border-radius: 150px 150px 0 0;
+    margin: 30px;
+}
+
+#Three-flower-section div img {
+    height: 300px;
+    width: 250px;
+}
+
+
+/* Our Feature Section */
+#three-icon {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin: 100px;
+    padding: 50px;
+    background-color: #dfe1e1;
+    border: none;
+    border-radius: 5px;
+}
+
+#three-icon div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hot-deal-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#The-Latest-Deals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: auto;
+    margin: 125px;
+    border: none;
+    border-radius: 15px;
+    background-image: url('images/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#The-Latest-Deals div input{
+    padding: 8px 32px;
+    border: none;
+    margin-right: 15px;
+}
+footer h2 {color: aliceblue;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 100px;
+}
